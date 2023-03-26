@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /* background-color: cadetblue; */
+}
+
+.team{
+    background-color: #f8fbfe;
+    padding: 50px 0px;
+}
+.team .title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team h2,
+.team h3{
+    color: #124265;
+    text-transform: uppercase;
+}
+.team p{
+    color: silver;
+    font-style: italic;
+}
+.team .d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.team .d-flex .member{
+    background-color: white;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0 rgba(128,128,128,0.1);
+}
+.team .d-flex .member img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+}
+@media screen and (min-width:1200px) {
+    .container{
+        width: 80%;
+    }
+    .team .d-flex .member{
+        width: 24%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .container{
+        width: 80%;
+    }
+    .team .d-flex .member{
+        width: 24%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .container{
+        width: 85%;
+    }
+    .team .d-flex .member{
+        width: 32%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:768px) {
+    .container{
+        width: 90%;
+    }
+    .team .d-flex .member{
+        width: 49%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: 95%;
+    }
+    .team .d-flex .member{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
