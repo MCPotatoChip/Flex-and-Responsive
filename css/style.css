@@ -84,3 +84,14 @@
         margin-bottom: 20px;
     }
 }
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgba(17, 212, 154, 0.603);
+    transition: color 0.5s;
+    display: inline-block;
+}
+a:hover i{
+    color:rgba(17, 212, 154, 1);
+}
+.social
